@@ -1,0 +1,8 @@
+{
+   "createUser":{
+      "name":"test",
+      "gender":"male",
+      "status":"active",
+      "update_gender":"female"
+   }
+}
