@@ -7,9 +7,11 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
-@JsonInclude(JsonInclude.Include.NON_DEFAULT)
+//@JsonInclude(JsonInclude.Include.NON_DEFAULT)
 //@JsonInclude(JsonInclude.Include.NON_NULL)
 //@JsonIncludeProperties(value= {"name","status"})
+@JsonIncludeProperties(value= {"name","status"})
+
 
 
 @Getter
